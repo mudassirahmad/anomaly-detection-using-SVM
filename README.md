@@ -111,22 +111,3 @@ The ROC curve suggests that the model has a high true positive rate, indicating 
 The F1 score of the model on the test set is 0.95, indicating a high level of performance in correctly predicting the target variable. The impact of the hyperparameter C on the model's F1 score was also evaluated, and it was found that increasing the value of C improved the model's performance.
 
 Overall, the SVM model with RBF kernel and hyperparameters C=100 and gamma=scale appears to be a good choice for this dataset. However, it is important to note that the results may not generalize to other datasets, and further testing and validation may be necessary.
-
-<br>
-
-## Credits 👏 <hr>
-
-This project is developed by Mudassir Ahmed. The following Python libraries were used for data processing, visualization, and machine learning:
-
-pandas (v1.3.4) - Data manipulation and analysis
-glob - File path management
-numpy (v1.21.4) - Numerical computing
-seaborn (v0.11.2) - Data visualization
-matplotlib (v3.4.3) - Plotting and visualization
-scikit-learn (v1.0) - Machine learning framework
-
-The dataset used in this project is the CSE-CIC-IDS 2018 dataset, which was obtained from Kaggle. The dataset contains network traffic data that has been labeled as either normal or malicious. The dataset was preprocessed using the Python libraries mentioned above.
-
-The machine learning model used in this project is the Support Vector Machine (SVM) algorithm with Radial Basis Function (RBF) kernel. The SVM model was trained and evaluated using scikit-learn. The performance of the model was evaluated using various metrics such as accuracy, precision, recall, F1 score, and ROC curve.
-
-Overall, this project serves as an example of using machine learning algorithms to classify network traffic as either normal or malicious. The insights gained from this project can be used to improve network security and prevent cyber attacks.
