@@ -1,4 +1,4 @@
-# anomaly-detection-using-Support Vector Machine Algorithm
+# Anomaly Detection Using Support Vector Machine Algorithm
 
 To accomplish its goals, this project will rely on the publicly available [CSE-CIC-IDS 2018 dataset]([url](https://www.kaggle.com/datasets/solarmainframe/ids-intrusion-csv)). This dataset contains a significant amount of network traffic data captured from a realistic environment, including labeled examples of both normal and anomalous network behavior. By utilizing this dataset, the project can test the effectiveness of its anomaly detection algorithms and refine them as necessary.
 
